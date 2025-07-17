@@ -8,7 +8,7 @@ dataset = pd.read_csv('/Users/kirtansukhadiya/Desktop/Hub/ML-Practice/Regrassion
 X = dataset.iloc[:, :-1].values  # Features
 y = dataset.iloc[:, -1].values  # Target variable
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
