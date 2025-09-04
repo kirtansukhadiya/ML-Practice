@@ -6,7 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LinearRegression
 
-dataset = pd.read_csv('/Users/kirtansukhadiya/Desktop/Hub/ML-Practice/Regrassion/Multiple Linear Regression/50_Startups.csv')
+dataset = pd.read_csv('Regrassion/Multiple Linear Regression/50_Startups.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 

@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 
-dataset = pd.read_csv('/Users/kirtansukhadiya/Desktop/Hub/ML-Practice/Regrassion/Support Vector Regression (SVR)/Position_Salaries.csv')
+dataset = pd.read_csv('Regrassion/Support Vector Regression (SVR)/Position_Salaries.csv')
 X = dataset.iloc[:, 1:-1].values  # Feature matrix (independent variable)
 y = dataset.iloc[:, -1].values  # Target variable (dependent variable)
 

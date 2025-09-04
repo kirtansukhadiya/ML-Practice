@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-dataset = pd.read_csv('/Users/kirtansukhadiya/Desktop/Hub/ML-Practice/Regrassion/Simple Linear Regression/Salary_Data.csv')
+dataset = pd.read_csv('Regrassion/Simple Linear Regression/Salary_Data.csv')
 X = dataset.iloc[:, :-1].values  # Features
 y = dataset.iloc[:, -1].values  # Target variable
 
